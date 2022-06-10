@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+        text-align: center;
+        background-image: linear-gradient(to right top, #da34a8, #a32974, #6d2048, #391624, #000000);
+        background-repeat:no-repeat ;
+}
+.brand{
+    font-family: 'Water Brush', cursive;
+}   
+.brand, footer{
+    color: black;
+}
+h2{
+    font-family: 'Water Brush', cursive;
+}
+footer{
+    margin-bottom: 0;
+    grid-area: footer;
+}
+.banner{
+    display: grid;
+    grid-template-rows: 100%;
+}
+.imgBanner{
+    width: 100%;
+}
+header{
+    background: black;
+}
+header nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav .menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav .menu .brand h1{ 
+ width: 300px;
+ color: white;
+}
+header nav .menu .links{
+    display: flex;
+}
+header nav .menu .links a{
+    padding: 16px 12px;
+    color: white;
+    text-decoration: none;
+}
+.diseños{
+    width: 95%;
+    height: 95%;
+    margin-left: 20%;
+}
+.grilla{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+}
